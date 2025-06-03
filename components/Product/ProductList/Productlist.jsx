@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
-import search from "../../../src/assets/search.png";
+import search from "../../../src/assets/Search.png";
 
 // Fallback Initial product data
 const initialData = [
