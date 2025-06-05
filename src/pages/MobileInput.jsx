@@ -52,11 +52,7 @@ const MobileInput = () => {
       setSuccessMessage('OTP sent successfully!');
 
       setTimeout(() => {
-        if (payload.hasStores) {
-          navigate('/select-store');
-        } else {
-          navigate('/no-store');
-        }
+      navigate('/otp-verification');
       }, 1500);
     } catch (err) {
       console.error('Simulated flow failed:', err);
